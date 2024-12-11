@@ -95,9 +95,8 @@ Proyecto Educativo
 ## Configuración del Proyecto
 
 16. Conectar el proyecto con la aplicación: Agregar 'docs','front_user','user_api', 'rest_framework' en la lista INSTALLED_APPS dentro del archivo autenticacion/settings.py
-
     ```bash
-   INSTALLED_APPS = [
+    INSTALLED_APPS = [
       'django.contrib.admin',
       'django.contrib.auth',
       'django.contrib.contenttypes',
@@ -111,9 +110,4 @@ Proyecto Educativo
       'user_api',
       'docs',
       'front_user',
-   ]
-
-### Creación de Vistas y Modelos
-  
-
-
+    ]
